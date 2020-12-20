@@ -1,0 +1,308 @@
+/* Global */
+
+body {
+    background-color: #fafafa;
+}
+a{
+    font-weight: 400;
+    color: #feb10f;
+    text-decoration: none;
+}
+a:hover{
+    color: #343C50;
+    text-decoration: none;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+}
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1300px;
+    }
+}
+
+.center_h1 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.btn-success {
+    color: #ffffff;
+    transition: all ease 0s;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 0px;
+    background: linear-gradient(90deg, #f5b01f 0%, #f5b01f 100%);
+    border: 0;
+    font-weight: 500;
+}
+
+.btn-success:hover, .btn-success:active {
+    color: #ffffff;
+    background: linear-gradient(90deg, #ffcc60 0%, #ffcc61 100%);
+    border-color: transparent;
+}
+
+.btn-outline-success{
+    color: #ffffff;
+    transition: all ease 0s;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 0px;
+    background: linear-gradient(90deg, #213b72 0%, #1f3971 100%);
+    border: 0;
+    font-weight: 500;
+}
+
+.btn-outline-success:hover, .btn-outline-success:active{
+    background: #7B8095 !important;
+}
+
+.btn-outline-success.focus, .btn-outline-success:focus {
+    box-shadow: none;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active:focus, .btn-outline-success:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-success.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.btn-success:not(:disabled):not(.disabled).active:focus, .btn-success:not(:disabled):not(.disabled):active:focus, .show>.btn-success.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.btn-success.focus, .btn-success:focus {
+    box-shadow: none;
+}
+
+.dropdown-menu.dopdown-profile {
+    left: auto;
+    right: 0;
+}
+
+/* Header */
+.bg-light {
+    background-color: #ffff !important;
+    box-shadow: 1px 1px 6px #e1e1e1;
+    min-height: 70px;
+}
+img.img-avatar {
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.navbar-right-btn a {
+    margin-left: 10px;
+}
+
+nav .dropdown-menu.dopdown-profile.show {
+    border: 0;
+    box-shadow: 0px 1px 5px #dee0e5;
+    border-radius: 0;
+    min-width: 185px;
+}
+
+nav .dropdown-item {
+    padding: 4px 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(33 59 114);
+    font-weight: 700;
+    font-size: 17px;
+    padding: 8px 0px 3px;
+    margin: 0 13px;
+    border-bottom: 5px solid #5460;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: rgb(33 59 114);
+    border-bottom: 5px solid #f5b01f;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: rgb(33 59 114);
+    border-bottom: 5px solid #f5b01f;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    border-bottom: 5px solid #f5b01f;
+}
+
+.navbar-brand {
+    margin-right: 3rem;
+}
+
+.navbar-light .form-inline .navbar-nav .nav-link {
+    color: rgb(33 59 114);
+    font-weight: 700;
+    font-size: 15px;
+    padding: 0;
+    margin: 0 0;
+    border-bottom: 0;
+    text-transform: capitalize;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #1f3971;
+}
+
+/* Register */
+
+.formRegister {
+    max-width: 650px;
+    border-radius: 8px;
+}
+span.span-info {
+    color: #433e48;
+    font-size: 13px;
+}
+
+.form-style{
+	margin: 0px auto;
+	padding: 20px;
+	background: #fff;
+    width: 100%;
+}
+.form-style fieldset{
+	border: none;
+}
+.form-style legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.form-style label {
+	display: block;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.form-style input[type="text"],
+.form-style input[type="date"],
+.form-style input[type="datetime"],
+.form-style input[type="email"],
+.form-style input[type="number"],
+.form-style input[type="search"],
+.form-style input[type="time"],
+.form-style input[type="url"],
+.form-style input[type="password"],
+.form-style textarea,
+.form-style select {
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+    background-color: #cecece2e;
+	color:#000;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 0px;
+    height: 40px;
+}
+.form-style input[type="text"]:focus,
+.form-style input[type="date"]:focus,
+.form-style input[type="datetime"]:focus,
+.form-style input[type="email"]:focus,
+.form-style input[type="number"]:focus,
+.form-style input[type="search"]:focus,
+.form-style input[type="time"]:focus,
+.form-style input[type="url"]:focus,
+.form-style input[type="password"]:focus,
+.form-style textarea:focus,
+.form-style select:focus{
+    background: #343c5b29;
+}
+
+.form-style textarea{
+    height: auto !important;
+}
+
+.form-style input:disabled {
+    background: #343c5b29;
+}
+
+.form-style select{
+	-webkit-appearance: menulist-button;
+	height:40px;
+}
+
+input.form-control.is-invalid {
+    border: 1px solid #dc3545;
+}
+
+.footer-form {
+    text-align: center;
+    margin-top: 30px;
+}
+.btn-link {
+    color: #feb10f;
+    text-decoration: none;
+    font-weight: 500;
+}
+.btn-link:hover{
+    color: #343C50;
+    text-decoration: none;
+}
+
+.flex-connection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-page {
+    display: flex;
+}
+
+.menu-left {
+    width: 25%;
+    padding-right: 20px;
+}
+.flex-content {
+    width: 75%;
+}
+
+a.sidbare-link {
+    width: 100%;
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px;
+    margin: 6px;
+    color: #343c51;
+    font-weight: 500;
+}
+
+a.sidbare-link.active {
+    background-color: #f5b01f;
+    color: #fff;
+}
+
+.menu-left-link a:first-child {
+    margin-top: 0px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f6f6f6;
+    padding-bottom: 12px;
+    color: #343c50;
+}
+
+
+.alert_code {
+    font-size: 0;
+}
+
+.Toastify{
+    font-size:14px;
+}
